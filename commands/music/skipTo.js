@@ -1,6 +1,7 @@
 module.exports = ({
-    name: "to",
-    aliases: ['t'],
+    name: "skipto",
+    aliases: ['st'],
     code: `$skipTo[$message]
-$isNumber[$message]`
+$isNumber[$message]
+Se han saltado $message canciones`
 })
