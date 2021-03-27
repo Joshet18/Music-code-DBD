@@ -1,5 +1,5 @@
 module.exports = ({
     name: "stop",
-    aliases: ['s'],
-    code: `$stopSong`
+    code: `$stopSong
+Se ha detenido la música`
 })
