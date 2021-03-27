@@ -1,16 +1,25 @@
 module.exports = ({
     name: "help",
-    code: `$title[Help!]
-$description[Hi $username! My prefix is __>__
+    code: `$title[**📩 Ayuda**]
+$description[holi <@$authorID> Esta es mi lista de comandos y mi prefijo es $getServerVar[prefix] n.n
 
-:musical_note: **Music**
-\`
-lyrics, pause, play, queue, resume, to, info, stop, volume, skip, loop
-\`
-
-:wrench: Other
-\`
-help, ping
-\`
+**🎶 Musica**
+**lyrics**
+**pause**
+**play**
+**queue**
+**resume**
+**to**
+**info**
+**stop**
+**volume**
+**skip**
+**loop**
+**📩 Información**
+**help**
+Obten la lista de comandos
+**🛠️ Ajutes**
+**set-prefix**
+Cambiar el prefijo del bot
 ]`
 })
