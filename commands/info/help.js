@@ -17,6 +17,7 @@ Reanudar la música
 **skipto (st)**
 Saltar un número de música
 **song-info**
+Obtener la información de la canción
 **stop**
 Detener la música
 **volume**
