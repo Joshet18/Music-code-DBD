@@ -33,6 +33,7 @@ bot.status({
 bot.status({
     text: "¡¡$serverCount Servidores!!",
     type: "WATCHING",
+    time: 12
 })
 
 bot.deletedCommand({
