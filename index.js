@@ -25,7 +25,7 @@ code: command.code
 }
 
 bot.status({
-    text: "Despacito┃$getServerVar[prefix]help $getServerVar[prefix]play",
+    text: "Despacito Luiz Fonsi",
     type: "LISTENING",
     time: 12
 })
