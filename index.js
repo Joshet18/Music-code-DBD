@@ -45,7 +45,7 @@ bot.onMessageDelete()
 
 bot.variables({
   prefix: "b+",
-  defaul-prefix: "b+",
+  defaulPrefix: "b+",
   deletedMessage: "",
   dedeletedAuthor: "",
   deletedIcon: ""
