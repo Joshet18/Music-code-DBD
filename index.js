@@ -36,20 +36,11 @@ bot.status({
     time: 12
 })
 
-bot.deletedCommand({
-channel: "$channelID",
-code: `$setServerVar[deletedIcon;$userAvatar]
-$setServerVar[deletedAuthor;$username#$discriminator[$authorID]]
-$setServerVar[deletedMessage;$message]`
-})
 bot.onMessageDelete()
 
 bot.variables({
   prefix: "!",
-  defaulPrefix: "!",
-  deletedMessage: "",
-  dedeletedAuthor: "",
-  deletedIcon: ""
+  defaulPrefix: "!"
 })
 
 const keepAlive = require('./server');
