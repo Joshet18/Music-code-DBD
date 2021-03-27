@@ -27,11 +27,15 @@ Salta una música
 **loop**
 Actiavar o desactiva la repetición de la música
 **📩 Información**
+**invite**
+Obten la invitación del bot
 **help**
 Obten la lista de comandos
 **🛠️ Ajutes**
 **set-prefix**
 Cambiar el prefijo del bot
+**defaul-prefix**
+Cambiar el Prefijo a uno por defecto
 ]
 $color[08ffef]`
 })
