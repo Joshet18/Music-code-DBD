@@ -44,7 +44,8 @@ $setServerVar[deletedMessage;$message]`
 bot.onMessageDelete()
 
 bot.variables({
-	prefix: "b+",
+  prefix: "b+",
+  defaul-prefix: "b+",
   deletedMessage: "",
   dedeletedAuthor: "",
   deletedIcon: ""
