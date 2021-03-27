@@ -1,9 +1,9 @@
 module.exports = ({
-    name: "info",
-    code: `$color[RANDOM]
-$title[**__Song Info__**]
-$description[**Song Nam** [$songInfo[title]\\]($songInfo[url])]
-$addField[:stopwatch:| Duration:;**__$songInfo[duration]]__**]
-$addField[:dvd: | Added by:;**__$songInfo[userID]__**]
+    name: "song-info",
+    code: `$color[08ffc1]
+$title[**🎵 Song Info**]
+$description[**Nombre** [$songInfo[title]\\]($songInfo[url])]
+$addField[**⏳ | Duracion**;**$songInfo[duration]]**]
+$addField[**📀 | Añadida por**;**$songInfo[userID]**]
 `
 })
