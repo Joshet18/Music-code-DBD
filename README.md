@@ -11,7 +11,7 @@ https://uptimerobot.com
 
 Primero cree un nuevo replit y use la opción import for GitHub
 Valla al alchivo index.js y en donde dice token: "tu token" pondrás tu token de bot
-Instales los siguientes compones
+Instales los siguientes packages
 
 npm i dbd.js,
 npm i fs,
@@ -38,3 +38,4 @@ A elección sulla,
 Y derle a Crear
 
 Y listo ya podrás divertirte con tu música
+Cualquier error informe a Joshet18#6029
