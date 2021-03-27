@@ -1,6 +1,6 @@
 #🎶 Music Code
 
-https://github.com/Joshet18/Music-code-DBD.js
+https://github.com/Joshet18/Music-code-DBD
 
 Gracias por usar este codigo,
 esta creador para la página Repit
