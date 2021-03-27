@@ -25,7 +25,7 @@ code: command.code
 }
 
 bot.status({
-    text: "Despacito Luiz Fonsi",
+    text: "Despacito Luiz Fonsi┃help and play",
     type: "LISTENING",
     time: 12
 })
