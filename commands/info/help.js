@@ -8,7 +8,7 @@ $description[holi <@$authorID> Esta es mi lista de comandos y mi prefijo es $get
 Obten la letra de la música que esta zonando
 **pause**
 Pausar la música
-**play**
+**play (p)**
 Poner una musica
 **queue**
 Mostrar la cola de música
