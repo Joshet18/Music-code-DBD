@@ -1,5 +1,6 @@
 module.exports = ({
-    name: "loopQueue",
-    aliases: ['loop'],
-    code: `Queue has been looped! $loopQueue`
+    name: "loop",
+    code: `$title[🔁 Loop]
+$description[¡La cola se ha repetido! $loopQueue`]
+$color[08ff52]
 })
