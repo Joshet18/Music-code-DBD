@@ -1,4 +1,5 @@
 module.exports = ({
     name: "skip",
-    code: `$skipSong`
+    code: `$skipSong
+La canción fue saltada`
 })
