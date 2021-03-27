@@ -1,6 +1,6 @@
 module.exports = ({
     name: "play",
     aliases: ['p'],
-    code: `$description[Playing - \`$playSong[$message;:x: Cannot find song or error]\`]
-$onlyIf[$voiceID!=;You need to be in a voice channel!]`
+    code: `🎵 Reproduciendo **$playSong[$message;:x: no se puede encontrar la canción]**
+$onlyIf[$voiceID!=;Necesitas estar en un canal de voz!]`
 })
