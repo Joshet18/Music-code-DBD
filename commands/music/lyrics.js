@@ -1,6 +1,8 @@
 module.exports = ({
     name: "lyrics",
-    code: `$title[**📃 Lyrics**]
-$description[$jsonRequest[https://some-random-api.ml/lyrics?title=$replaceText[$message; ;+];lyrics;No Lyrics Found for this song.]]
-$color[ffb908]`
+    code: `$onlyIf[$message!=;*Escriba el nombre de la letra*]
+$title[**📃 $message Lyrics**]
+$description[**Letra de $message**
+$jsonRequest[https://some-random-api.ml/lyrics?title=$replaceText[$message; ;+];lyrics;No se encontró la letra]]
+`
 })
