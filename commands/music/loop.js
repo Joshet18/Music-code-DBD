@@ -1,6 +1,6 @@
 module.exports = ({
     name: "loop",
     code: `$title[**🔁 Loop**]
-$description[¡La cola se ha repetido! $loopQueue]
+$description[Loop: **$loopQueue**]
 $color[08ff52]`
 })
