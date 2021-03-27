@@ -4,16 +4,16 @@ Gracias por usar este codigo,
 esta creador para la página Repit
 
 🌐 Pajinas web nesesarias para este codigo
-https://replit.com
+https://replit.com,
 https://uptimerobot.com
 
 Primero cree un nuevo replit y use la opción import for GitHub
 Valla al alchivo index.js y en donde dice token: "tu token" pondrás tu token de bot
 Instales los siguientes compones
 
-npm i dbd.js
-npm i fs
-npm i express
+npm i dbd.js,
+npm i fs,
+npm i express,
 npm i ping-monitor
 
 inicie su bot y arriba de la consola saldra un link copielo
@@ -22,15 +22,15 @@ inicié sesión o si no tienes una cuenta registrese después
 Derle a + Monitor y Ajutelo de la siguiente forma:
 
 Monitor Type:
-HTTPS
+HTTPS,
 Name:
-El que gustes
+El que gustes,
 URL:
-La que se copio en el sitio de Replit
+La que se copio en el sitio de Replit,
 monitoring Interval:
-5 minutos
+5 minutos,
 
 Alerta:
-A elección sulla
+A elección sulla,
 
 Y derle a Crear
