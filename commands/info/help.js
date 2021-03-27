@@ -10,7 +10,7 @@ Obten la letra de la música que esta zonando
 Pausar la música
 **play (p)**
 Poner una musica
-**queue**
+**queue (q)**
 Mostrar la cola de música
 **resume**
 Reanudar la música
