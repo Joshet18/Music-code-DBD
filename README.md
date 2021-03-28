@@ -13,7 +13,7 @@ Primero cree un nuevo replit y use la opción import for GitHub
 Valla al alchivo index.js y en donde dice token: "tu token" pondrás tu token de bot
 Instales los siguientes packages
 
-npm i dbd.js,
+npm i dbd.js@latest,
 npm i fs,
 npm i express,
 npm i ping-monitor
