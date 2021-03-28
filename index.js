@@ -39,7 +39,8 @@ bot.status({
 bot.onMessageDelete()
 
 bot.variables({
-  VariableName "valor"
+  VariableName: "0",
+  VariableName2: "0"
 })
 
 const keepAlive = require('./server');
