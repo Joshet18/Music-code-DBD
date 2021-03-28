@@ -2,7 +2,7 @@ const dbd = require("dbd.js");
  
 const bot = new dbd.Bot({
 token: "Tu Token", 
-prefix: "$getServerVar[prefix]"
+prefix: "!"
 })
  
 bot.onMessage()
@@ -25,7 +25,7 @@ code: command.code
 }
 
 bot.status({
-    text: "Despacito Luiz Fonsi┃help and play",
+    text: "Despacito Luiz Fonsi┃!help and !play",
     type: "LISTENING",
     time: 12
 })
@@ -39,8 +39,7 @@ bot.status({
 bot.onMessageDelete()
 
 bot.variables({
-  prefix: "!",
-  defaulPrefix: "!"
+  VariableName "valor"
 })
 
 const keepAlive = require('./server');
